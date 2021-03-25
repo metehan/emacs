@@ -28,9 +28,6 @@
 ;; ** Font
 (setq doom-font (font-spec :family "Noto Mono" :size 18))
 
-;; * Misc
-(setq org-directory "~/Documents/ORG/")
-
 ;; ** rgrep ignore some folders
 (eval-after-load 'grep
                  '(progn
